@@ -38,16 +38,16 @@ const Footer = () => {
               <a style={{textDecoration: 'none'}} href='tel: +254 791448827' className='mt-3 d-block mb-1 text-white'>+254 791448827</a>
               <a style={{textDecoration: 'none'}} href='mailto: collinsmuemah@gmail.com' className='mt-2 d-block mb-0 text-white'>collinsmuemah@gmail.com</a>
               <div className='social-icons d-flex align-items-center gap-30'>
-                <a href='/' alt='social icons'>
+                <a href='#' alt='social icons'>
                   <BsLinkedin className='text-white fs-4'/>
                 </a>
-                <a href='/' alt='social icons' className='text-white'>
+                <a href='#' alt='social icons' className='text-white'>
                   <BsInstagram className='text-white fs-4'/>
                 </a>
-                <a href='/' alt='social icons' className='text-white'>
+                <a href='#' alt='social icons' className='text-white'>
                   <BsGithub className='text-white fs-4'/>
                 </a>
-                <a href='/' alt='social icons' className='text-white'>
+                <a href='#' alt='social icons' className='text-white'>
                   <BsYoutube className='text-white fs-4'/>
                 </a>
               </div>
