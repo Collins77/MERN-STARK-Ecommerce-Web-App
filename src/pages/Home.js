@@ -199,6 +199,52 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <section className='famous-wrapper py-5 home-wrapper-2'>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-3'>
+              <div className='famous-card position-relative'>
+                <img src='images/famous-1.webp' className='img-fluid' alt='' />
+                <div className='famous-content position-absolute'>
+                  <h5>Big Screen</h5>
+                  <h6>Smart Watch Series 7</h6>
+                  <p>From $339 or $16.62/mo. for 24 mo.*</p>
+                </div>
+              </div>
+            </div>
+            <div className='col-3'>
+              <div className='famous-card position-relative'>
+                <img src='images/famous-2.webp' className='img-fluid' alt='' />
+                <div className='famous-content position-absolute'>
+                  <h5>Big Screen</h5>
+                  <h6>Smart Watch Series 7</h6>
+                  <p>From $339 or $16.62/mo. for 24 mo.*</p>
+                </div>
+              </div>
+            </div>
+            <div className='col-3'>
+              <div className='famous-card position-relative'>
+                <img src='images/famous-3.webp' className='img-fluid' alt='' />
+                <div className='famous-content position-absolute'>
+                  <h5>Big Screen</h5>
+                  <h6>Smart Watch Series 7</h6>
+                  <p>From $339 or $16.62/mo. for 24 mo.*</p>
+                </div>
+              </div>
+            </div>
+            <div className='col-3'>
+              <div className='famous-card position-relative'>
+                <img src='images/famous-4.webp' className='img-fluid' alt='' />
+                <div className='famous-content position-absolute'>
+                  <h5>Big Screen</h5>
+                  <h6>Smart Watch Series 7</h6>
+                  <p>From $339 or $16.62/mo. for 24 mo.*</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className='special-wrapper py-5 home-wrapper-2'>
         <div className='container'>
           <div className='row'>
@@ -210,6 +256,20 @@ const Home = () => {
             <SpecialProduct />
             <SpecialProduct />
             <SpecialProduct />
+            <SpecialProduct />
+          </div>
+        </div>
+      </section>
+      <section className='popular-wrapper py-5 home-wrapper-2'>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-12'>
+              <h3 className='section-heading'>Our Popular Products</h3>
+            </div>
+              <ProductCard />
+              <ProductCard />
+              <ProductCard />
+              <ProductCard />
           </div>
         </div>
       </section>
