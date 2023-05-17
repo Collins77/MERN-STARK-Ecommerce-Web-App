@@ -206,7 +206,7 @@ const Home = () => {
               <div className='famous-card position-relative'>
                 <img src='images/famous-1.webp' className='img-fluid' alt='' />
                 <div className='famous-content position-absolute'>
-                  <h5>Big Screen</h5>
+                  <h5>BIG SCREEN</h5>
                   <h6>Smart Watch Series 7</h6>
                   <p>From $339 or $16.62/mo. for 24 mo.*</p>
                 </div>
@@ -216,9 +216,9 @@ const Home = () => {
               <div className='famous-card position-relative'>
                 <img src='images/famous-2.webp' className='img-fluid' alt='' />
                 <div className='famous-content position-absolute'>
-                  <h5>Big Screen</h5>
-                  <h6>Smart Watch Series 7</h6>
-                  <p>From $339 or $16.62/mo. for 24 mo.*</p>
+                  <h5 className='text-dark'>STUDIO DISPLAY</h5>
+                  <h6 className='text-dark'>600 nits bright</h6>
+                  <p className='text-dark'>27-inch 5K Retina display</p>
                 </div>
               </div>
             </div>
@@ -226,9 +226,9 @@ const Home = () => {
               <div className='famous-card position-relative'>
                 <img src='images/famous-3.webp' className='img-fluid' alt='' />
                 <div className='famous-content position-absolute'>
-                  <h5>Big Screen</h5>
-                  <h6>Smart Watch Series 7</h6>
-                  <p>From $339 or $16.62/mo. for 24 mo.*</p>
+                  <h5 className='text-dark'>SMARTPHONES</h5>
+                  <h6 className='text-dark'>Smartphone 13 Pro.</h6>
+                  <p className='text-dark'>From $999.00 or $41.62/mo. for 24 mo. Footnote*</p>
                 </div>
               </div>
             </div>
@@ -236,9 +236,9 @@ const Home = () => {
               <div className='famous-card position-relative'>
                 <img src='images/famous-4.webp' className='img-fluid' alt='' />
                 <div className='famous-content position-absolute'>
-                  <h5>Big Screen</h5>
-                  <h6>Smart Watch Series 7</h6>
-                  <p>From $339 or $16.62/mo. for 24 mo.*</p>
+                  <h5 className='text-dark'>HOME SPEAKERS</h5>
+                  <h6 className='text-dark'>Room-filling sound.</h6>
+                  <p className='text-dark'>From $699 or $116.58/mo. for 12 mo.*</p>
                 </div>
               </div>
             </div>

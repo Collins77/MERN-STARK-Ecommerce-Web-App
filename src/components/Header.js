@@ -92,7 +92,7 @@ const Header = () => {
                        <div className='menu-links'>
                             <div className='d-flex align-items-center gap-15'>
                                 <NavLink style={{color: 'white', textDecoration: 'none', fontWeight: '400', fontSize: '14px', lineHeight: '18px', letterSpacing: '0.3', textTransform: 'uppercase'}} to='/'>Home</NavLink>
-                                <NavLink style={{color: 'white', textDecoration: 'none', fontWeight: '400', fontSize: '14px', lineHeight: '18px', letterSpacing: '0.3', textTransform: 'uppercase'}} to='/'>Our Store</NavLink>
+                                <NavLink style={{color: 'white', textDecoration: 'none', fontWeight: '400', fontSize: '14px', lineHeight: '18px', letterSpacing: '0.3', textTransform: 'uppercase'}} to='/store'>Our Store</NavLink>
                                 <NavLink style={{color: 'white', textDecoration: 'none', fontWeight: '400', fontSize: '14px', lineHeight: '18px', letterSpacing: '0.3', textTransform: 'uppercase'}} to='/'>Blogs</NavLink>
                                 <NavLink style={{color: 'white', textDecoration: 'none', fontWeight: '400', fontSize: '14px', lineHeight: '18px', letterSpacing: '0.3', textTransform: 'uppercase'}} to='/contact'>Contact</NavLink>
                             </div>
